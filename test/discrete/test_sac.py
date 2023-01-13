@@ -1,7 +1,8 @@
 import argparse
 import os
 import pprint
-
+import sys
+sys.path.append('/home/shane16/Project/tianshou/gym')
 import gym
 import numpy as np
 import torch
